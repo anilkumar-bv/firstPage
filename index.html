@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>First Page</title>
+    <style>
+        #emphasis {
+            color: red;
+        }
+
+        .emphasis {
+            color: green;
+        }
+
+        ul:first-of-type li:nth-child(3) {
+            color: orange;
+        }
+    </style>
+    <!--<link rel="stylesheet" href="css/style.css" />-->
 </head>
+
 <body>
-    <p>Hello World!!</p>
-    <em>How are you today?</em>
+    <div>
+        <h1>My Website</h1>
+        <p>Hello World!!</p>
+        <em>How are you today?</em>
+        <blockquote>
+            <p>Hi there</p>
+        </blockquote>
+        <img src="images/logo.jpg" alt="ACME" width="100px" height="100px" />
+        <a href="http://www.google.com">Google</a>
+        <dl>
+            <dt>Vistual Studio Code</dt>
+            <dd>Text Editor</dd>
+            <dt>Vistual Studio Code</dt>
+            <dd>Text Editor</dd>
+            <dt>Vistual Studio Code</dt>
+            <dd>Text Editor</dd>
+        </dl>
+    </div>
+    <div>
+        <ul id="sect">
+            <li class="emphasis">This</li>
+            <li>is</li>
+            <li class="emphasis">My</li>
+            <li>List</li>
+        </ul>
+        <ul>
+            <li class="emphasis">This</li>
+            <li>is</li>
+            <li class="emphasis">My</li>
+            <li>List</li>
+        </ul>
+    </div>
 </body>
+
 </html>

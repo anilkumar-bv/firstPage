@@ -1,0 +1,27 @@
+a {
+    color:red; 
+    text-decoration: underline dotted #FF3028;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.outer {
+    margin-left: 250px;
+    width: 500px;
+}
+
+.first {
+    width: 90%;
+    height: 50px;
+    border: white;
+    border-width: 2px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
