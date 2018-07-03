@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Slabo 27px', serif;
+}
+
 .container_12 {
     background: #e3e3e3;
 }
@@ -17,9 +22,7 @@ header {
 }
 
 .main {
-    margin: 20px 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Slabo 27px', serif;
+    margin: 20px 5px;
 }
 
 img {
@@ -40,4 +43,8 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
     /* word-spacing: 30px; */
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
 }
