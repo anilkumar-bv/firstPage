@@ -1,0 +1,9 @@
+h1  {
+    font-size: 120px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+    text-shadow: 5px 10px 10px red;
+}

@@ -11,14 +11,24 @@
 }
 .content {
     background: red;
-    float: left;
+    float: center;
     width: 80%;
 }
 
-aside {
+leftAside {
     background: brown;
     float: left;
     width: 20%;
+}
+
+/* rightAside {
+    background: brown;
+    float: right;
+    width: 20%;
+} */
+
+footer {
+    clear: both;
 }
 
 aside ul {
